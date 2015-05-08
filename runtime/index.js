@@ -1,0 +1,1 @@
+window["EasyStar"] = require("easystarjs");

@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "files": [
+        "./api/index.ts",
+        "./index.d.ts",
+        "./runtime/index.ts",
+        "./typings/easystarjs/easystarjs.d.ts",
+        "./typings/tsd.d.ts"
+    ]
+}
